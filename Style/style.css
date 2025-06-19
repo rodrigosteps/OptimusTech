@@ -1,0 +1,380 @@
+@import url(reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --backgroundcolor: #ffffff;
+  --linkscolor: #667085;
+  --colorred: #8e2424;
+  --colorspan: #101828;
+}
+
+body {
+  background-color: var(--backgroundcolor);
+  margin: 0 auto;
+}
+/*Estilo da Barra de Navegação*/
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 32px;
+    width: 1280px;
+    margin: 0 auto;
+  
+
+  .NavLogo {
+    padding-left: 80px;
+  }
+
+  .NavLinks {
+    display: flex;
+    gap: 32px;
+    font-family: "Inter";
+    color: var(--linkscolor);
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  a:visited {
+    color: #667085;
+    cursor: pointer;
+  }
+
+  .Buttons {
+    display: flex;
+    gap: 32px;
+    
+  }
+
+  .Btn1 {
+    font-family: "Inter";
+    color: var(--linkscolor);
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--backgroundcolor);
+    border: none;
+    cursor: pointer;
+  }
+
+  .Btn2 {
+    font-family: "Inter";
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--colorred);
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 2px solid #8e2424;
+  }
+
+  .Btn2:hover{
+    background-color: #af3636;
+    border: 2px solid #7e1e1e;
+  }
+}
+
+/*Estilo do Cabeçalho*/
+.Cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 96px 0 96px 0;
+
+  h5 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8e2424;
+  }
+
+  span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 48px;
+    color: var(--colorspan);
+    line-height: 60px;
+    letter-spacing: -2%;
+    padding-top: 32px;
+  }
+
+  p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #667085;
+    padding-top: 12px;
+  }
+}
+
+/*Estilo das Meetricas*/
+.metricas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  gap: 32px;
+  padding: 0 32px 64px;
+
+  .NumETxt h4 {
+    font-family: Inter;
+    color: var(--colorred);
+    font-size: 60px;
+    font-weight: 600;
+    padding-top: 12px;
+  }
+
+  .NumETxt span {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--colorspan);
+    line-height: 28px;
+    letter-spacing: 0%;
+    padding-top: 12px;
+  }
+
+  .NumETxt p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #667085;
+    padding-top: 12px;
+  }
+}
+
+/*Estilo das Vagas*/
+.Vagas {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 32px 64px;
+  margin: 0 auto;
+
+  h5 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--colorred);
+    padding: 4px 0;
+  }
+
+  span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--colorspan);
+  }
+
+  p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #667085;
+    padding: 12px 0 40px 0;
+  }
+
+  .V-img img {
+    width: 1200px;
+    height: 400;
+    padding: 0 32px;
+  }
+}
+
+.VagasAbertas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+
+  .Design,
+  .DesenvolvimentoDeSoftware {
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    height: auto;
+    gap: 32px;
+  }
+
+  .Vagainfo {
+    width: 768px;
+    height: 136px;
+    border-radius: 16px;
+    border: 1px solid #eaecf0;
+    padding-top: 24px;
+    padding-right: 24px;
+    padding-bottom: 28px;
+    padding-left: 24px;
+  }
+
+  h5 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  span {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--colorspan);
+    line-height: 28px;
+  }
+
+  p {
+    padding: 6px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #667085;
+  }
+}
+
+/*Estilo das depoimentos*/
+.Depoimentos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 64px;
+  padding-top: 64px;
+
+  img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+
+  .avatar {
+    align-items: center;
+  }
+
+  h5 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8e2424;
+  }
+
+  h2 {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 60px;
+    letter-spacing: -2%;
+    padding-top: 32px;
+  }
+  span {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--colorspan);
+    line-height: 24px;
+    text-align: center;
+  }
+
+  p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #667085;
+    padding-top: 12px;
+  }
+}
+
+/*Estilo das formulario*/
+.Formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 96px 96px;
+  margin: 0 auto;
+
+  .span {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--colorspan);
+    text-align: center;
+    margin: 20px 0px;
+  }
+
+  p {
+    margin: 20px 0px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #667085;
+  }
+
+  input {
+    margin: 20px 0px;
+    width: 360px;
+    height: 48;
+    gap: px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border-radius: 8px;
+    border-width: 1px;
+  }
+
+  button {
+    font-family: "Inter";
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: var(--colorred);
+    border: none;
+    padding: 10px 20px;
+    margin-left: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+     border: 2px solid #8e2424;
+  }
+
+  button:hover{
+    background-color: #af3636;
+    border: 2px solid #7e1e1e;
+   
+  }
+}
+
+/*Estilo das rodapé*/
+.rodape {
+  margin: 0 0 60px 0px;
+  text-align: center;
+  width: 393;
+  height: 24;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #98a2b3;
+}
