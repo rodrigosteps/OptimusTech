@@ -1,6 +1,6 @@
 <h1 align=center>Landing Page - OptimusTech</h1>
 
-<p>Layout de landing page criada para o desafio #7DaysOfCoding da @lura</p>
+<p>Layout de landing page criada para o desafio #7DaysOfCoding da @Alura</p>
 
 
 
