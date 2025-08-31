@@ -2,10 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
 :root {
-  --backgroundcolor: #ffffff;
+  --backgroundcolor: #fafafa;
   --linkscolor: #667085;
   --colorred: #8e2424;
-  --colorspan: #101828;
+  --colorspan: #1c1c1c;
 }
 
 body {
