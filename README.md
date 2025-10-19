@@ -2,7 +2,7 @@
 
 <p>Layout de landing page criada para o desafio #7DaysOfCoding da @Alura</p>
 
-<h4>Veja o resultado <a href="https://rodrigosteps.github.io/ChessDashboard/">AQUI</a></h4>
+<h4>Veja o resultado <a href="https://rodrigosteps.github.io/OptimusTech/">AQUI</a></h4>
 
 
 
